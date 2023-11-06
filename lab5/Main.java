@@ -1,5 +1,5 @@
 package lab5;
-
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
       /*  Cat firstCat= new Cat("TOM", "gray", 6);
@@ -19,18 +19,18 @@ public class Main {
 //
 //    }
         Employee e = new Employee();
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Introduceti datele angajatului");
 
         System.out.println("Introduceti numele:");
-        e.setname(input.nextLine());
+        e.setName(input.nextLine());
         System.out.println("Introduceti email:");
-        e.setemail(input.nextLine());
+        e.setEmail(input.nextLine());
         System.out.println("Introduceti hourrate:");
-        e.sethourRate(input.nextLine());
+        e.setHourRate(input.nextInt());
         System.out.println("Introduceti capacity:");
-        e.setcapacity(input.nextLine());
+        e.setCapacity(input.nextInt());
         System.out.println("Introduceti freedays:");
-        e.setfreeDays(input.nextLine());
+        e.setFreeDays(input.nextInt());
         e.calculateMonthlyIncome();
-}
+}}

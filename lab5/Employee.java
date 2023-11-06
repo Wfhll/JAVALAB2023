@@ -6,6 +6,27 @@ public class Employee {
     private Integer hourRate; //income
     private Integer capacity; //work hours/day
     private Integer freeDays;
+    public Employee(){}
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setHourRate(Integer hourRate) {
+        this.hourRate = hourRate;
+    }
+
+    public void setCapacity(Integer capacity) {
+        this.capacity = capacity;
+    }
+
+    public void setFreeDays(Integer freeDays) {
+        this.freeDays = freeDays;
+    }
 
     private Integer calculateDailyIncome(){
        return hourRate * capacity;
