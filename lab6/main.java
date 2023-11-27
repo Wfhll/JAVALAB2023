@@ -3,7 +3,7 @@ package lab6;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class main {
     public static void main(String[] args) {
  //       Triangle triangle = new Triangle(5);
    //     Square square = new Square(6);
@@ -26,9 +26,9 @@ public class Main {
         System.out.println(listaDeCarti.indexOf(element));
     });
 
-    List<String> list = listaDeCarti.stream()
-            .filter(e -> e.getISBN().length() > 10)
-            .map(e -> e.getAuthor())
-            .toList();
+       // listaDeCarti.stream()
+      //      .filter(e -> e.getISBN().length() > 10)
+       //     .map(e -> e.getAuthor());
+       //     .toList();
     }
 }
