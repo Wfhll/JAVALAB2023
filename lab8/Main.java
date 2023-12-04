@@ -33,35 +33,4 @@ public class Main {
 
 }
 
-
-
-
-
-
-
-
-//import java.util.Arrays;
-//import java.util.Collections;
-//import java.util.List;
-//
-//public class SortLists {
-//    public static void main(String[] args) {
-//        List<String> listOfStrings = Arrays.asList("apple", "banana", "orange", "apricot", "grape", "kiwi");
-//
-//        // Sort the list in ascending order using Stream
-//        List<String> ascendingOrder = listOfStrings.stream()
-//                .sorted()
-//                .toList(); // Note: This requires Java 16 or later, or you can use Collectors.toList() in earlier versions
-//
-//        // Sort the list in descending order using Stream
-//        List<String> descendingOrder = listOfStrings.stream()
-//                .sorted(Collections.reverseOrder())
-//                .toList(); // Note: This requires Java 16 or later, or you can use Collectors.toList() in earlier versions
-//
-//        // Print the results
-//        System.out.println("Original List: " + listOfStrings);
-//        System.out.println("List in Ascending Order: " + ascendingOrder);
-//        System.out.println("List in Descending Order: " + descendingOrder);
-//    }
-//}
   
